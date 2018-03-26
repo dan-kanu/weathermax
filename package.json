@@ -2,11 +2,13 @@
   "name": "myweather",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://dan-kanu.github.io/weathermax",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
+    "react-open-weather-map": "^2.3.0",
     "react-scripts": "1.1.1"
   },
   "scripts": {

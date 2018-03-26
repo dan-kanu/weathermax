@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: center !important;
+  background:#111116;
+  height: 600px;
 }
 
 .App-logo {
@@ -7,9 +9,22 @@
   height: 80px;
 }
 
+#header{
+  padding-top: 100px;
+  color:#fff;
+  background:
+linear-gradient(
+  rgba(8, 7, 8, 0.644), 
+  rgba(10, 8, 8, 0.856)
+),
+ url('https://source.unsplash.com/1600x900/?clouds,weather');
+background-size:cover;
+height: 350px;
+}
+
 .App-header {
-  background-color: #222;
-  height: 150px;
+
+  height: 200px;
   padding: 20px;
   color: white;
 }
@@ -20,6 +35,51 @@
 
 .App-intro {
   font-size: large;
+}
+.Title {
+  text-align: center !important;
+  width: 100%;
+}
+
+.intro-credit{
+ 
+  padding: 60px 0;
+}
+#intro{
+  text-align: center;
+  width:100%;
+  
+}
+input[type="text"] {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 6px;
+  margin: 14px;
+  color: #6FBC6C;
+
+  font-size: 20px;
+}
+.section-2 {
+  padding:30px;
+  background-size:cover;
+  min-height:350px;
+}
+.city-container{
+    height: 400px;
+    padding: 20px;
+    
+     background-size:cover;
+}
+#temp-container{
+ text-align:left;
+}
+.footer{
+  border-top: solid 1px rgb(32, 41, 32);
+  height: 100px;
+  padding:20px;
+
 }
 
 @keyframes App-logo-spin {
